@@ -45,9 +45,23 @@ let invitadoPersona = [
         "nombre": "Romina",
         "edad": 19,
         "hora_ingreso": 1
+    },
+    {
+        "nombre": "Miguel",
+        "edad": 30,
+        "hora_ingreso": 3
+    },
+    {
+        "nombre": "Darío",
+        "edad": 18,
+        "hora_ingreso": 21
+    },
+    {
+        "nombre": "Gabriela",
+        "edad": 18,
+        "hora_ingreso": 21
     }
 ]
-
 
 function verificarEdad_Horario() {
 
@@ -74,7 +88,7 @@ function verificarEdad_Horario() {
     lista.append(titulo2);
     
     invitadoPersona.map((elemento) => {        
-        if (elemento.edad <= 18) {
+        if (elemento.edad < 18) {
             let elemento1 = document.createElement('li');
             elemento1.textContent = `${elemento.nombre} no es mayor de edad, tiene ${elemento.edad}.`;
             lista.appendChild(elemento1);
@@ -87,8 +101,7 @@ function verificarEdad_Horario() {
     lista2.append(titulo3);
 
     invitadoPersona.map((elemento) => {
-        if ((elemento.hora_ingreso >=2) && (elemento.hora_ingreso <=4)){
-            console.log(elemento.hora_ingreso);
+        if ((elemento.hora_ingreso >=2) && (elemento.hora_ingreso <=4)){            
             if (elemento.edad >= 18) {
                 let elemento2 = document.createElement('li');
                 elemento2.textContent = `${elemento.nombre}, registra el ingreso a las: 0${elemento.hora_ingreso}:00 horas y su consumo es gratuito por haber ingresado después de las 2AM.`;
