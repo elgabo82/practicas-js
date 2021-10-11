@@ -43,7 +43,7 @@ function detectaMentiras(){
 
 
 function detectarMentira(){
-    let mentira = Math.floor(Math.random()*20);    
+    let mentira = Math.floor(Math.random()*24);    
     let respuesta = mentiras[mentira];
     return respuesta;
 }
