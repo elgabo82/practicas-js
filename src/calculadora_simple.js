@@ -23,9 +23,7 @@ function calcular() {
             e.preventDefault();
             document.getElementById("boton").click(); // Ejecuta el clic del botón
         }
-    };
-
-    
+    };    
 
     if (siExiste) {        
         siExiste.value =  res; // Solo muestra el resultado.
