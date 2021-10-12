@@ -114,5 +114,4 @@ function verificarAusencias(asistentes){
 
 }
 
-
 const asistencia = () => verificarAusencias(asistentes);

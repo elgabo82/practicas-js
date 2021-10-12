@@ -19,7 +19,7 @@
     </ol>
 
     <button onclick="heladeriaJS()">Comprar</button>
-    <script src="helados.js"></script> -->
+    <script src="src/helados.js"></script> -->
 
     <!-- <h3>Lotería JS</h1>
     <h2>El costo del boleto es de $1.</h2>
@@ -29,14 +29,14 @@
     </ul>
     
     <button onclick="compraBoletos()">Presiona para comprar.</button>
-    <script src="loteria.js"></script> -->
+    <script src="src/loteria.js"></script> -->
 
     <!-- <h1>Detector de Mentiras JS</h1>
     <h2>Vamos a determinar si mientes o no.</h2>
 
     <button onClick="detectaMentiras()">Presiona para saber la verdad.</button>    
     
-    <script src="detector.js"></script> -->
+    <script src="src/detector.js"></script> -->
 
     <!-- <h1>Fiesta JS</h1>
     <p>Vamos a determinar la edad de los invitados, solo mayores de 18 años y luego de las 2am quien ingresa no paga el consumo.</p>
@@ -48,9 +48,9 @@
     <br/>
     <button onClick="verificarEdad_Horario()">Presiona para verificar.</button>   
     
-    <script src="ejercicio_mayoria_edad.js"></script> -->
+    <script src="src/ejercicio_mayoria_edad.js"></script> -->
 
-    <h1>AsistentesJS</h1>
+    <!-- <h1>AsistentesJS</h1>
 
     <p>Verifica el listado de asistentes de un curso: </p>
     <main id="principal">
@@ -62,6 +62,19 @@
 
     <button onclick="asistencia()">Presiona para verificar</button>
 
-    <script src="registro_asistentes.js"></script>
+    <script src="src/registro_asistentes.js"></script> -->
+
+    <h1>Calculadora JS</h1>
+    <h2>Calculadora sencilla usando la librería <a href="https://unpkg.com/mathjs@9.5.0/lib/browser/math.js">MathJS</a></h2>
+
+    <p>Ingrese la expresión:</p>
+    <div id="seccion-calculadora">
+        <input id="calculadora" name="calculadora" type="text" placeholder="2+2" onkeydown="calcular()"/><br />      
+    </div>
+    <button id="boton" onclick='calcular()' value="submit">Calcular</button>
+
+    <script src="src/math.js"></script>
+    <script src="src/calculadora_simple.js"></script>
+
 </body>
 </html>
