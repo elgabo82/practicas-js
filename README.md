@@ -28,7 +28,7 @@ Debes descomentar las secciones correspondientes en el contenido del archivo HTM
     </ol>
 
     <button onclick="heladeriaJS()">Comprar</button>
-    <script src="helados.js"></script>
+    <script src="src/helados.js"></script>
     `
 
 ###  LoteríaJS
@@ -40,7 +40,7 @@ Debes descomentar las secciones correspondientes en el contenido del archivo HTM
     </ul>
     
     <button onclick="compraBoletos()">Presiona para comprar.</button>
-    <script src="loteria.js"></script>`
+    <script src="src/loteria.js"></script>`
 
 ### MentirasJS
 `<h1>Detector de Mentiras JS</h1>
@@ -48,7 +48,7 @@ Debes descomentar las secciones correspondientes en el contenido del archivo HTM
 
     <button onClick="detectaMentiras()">Presiona para saber la verdad.</button>    
     
-    <script src="detector.js"></script>`
+    <script src="src/detector.js"></script>`
 
 ### FiestaJS
 `<h1>Fiesta JS</h1>
@@ -61,5 +61,19 @@ Debes descomentar las secciones correspondientes en el contenido del archivo HTM
 
     <button onClick="verificarEdad_Horario()">Presiona para verificar.</button>   
     
-    <script src="ejercicio_mayoria_edad.js"></script>
+    <script src="src/ejercicio_mayoria_edad.js"></script>
+`
+
+### CalculadoraJS - Math.JS
+`   <h1>Calculadora JS</h1>
+    <h2>Calculadora sencilla usando la librería <a href="https://unpkg.com/mathjs@9.5.0/lib/browser/math.js">MathJS</a></h2>
+
+    <p>Ingrese la expresión:</p>
+    <div id="seccion-calculadora">
+        <input id="calculadora" name="calculadora" type="text" placeholder="2+2" onkeydown="calcular()"/><br />      
+    </div>
+    <button id="boton" onclick='calcular()' value="submit">Calcular</button>
+
+    <script src="src/math.js"></script>
+    <script src="src/calculadora_simple.js"></script>
 `
