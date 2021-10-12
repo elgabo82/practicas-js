@@ -6,6 +6,7 @@ Hay varios archivos JS.
 * 3 - Un "detector de mentiras".
 * 4 - Una "herramienta para controlar el ingreso de menores de edad".
 * 5 - Uno de funciones generales, operaciones con **for in** y **for of**
+* 6 - Calculadora sencilla usando la librería [Math.JS](https://mathjs.org)
 
 
 Debes descomentar las secciones correspondientes en el contenido del archivo HTML.
