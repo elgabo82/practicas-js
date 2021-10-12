@@ -63,7 +63,7 @@ const asistentes = [
     }
 ]
 
-const totalDias = 30; //Máximo 30 de ausencias permitidas.
+const totalDias = 30; //Máximo 30% de ausencias permitidas.
 
 function verificarAusencias(asistentes){
     let listado = [...asistentes];
